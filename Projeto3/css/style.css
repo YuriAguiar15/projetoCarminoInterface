@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: nome;
+    color: black;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+}
+.actions input {
+    padding: 5px;
+}
+.actions button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.hero p {
+    margin-bottom: 20px;
+}
+.hero button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.gridPosts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.cardPost {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.img {
+    height: 150px;
+    background: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+body {
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+@media (max-width: 770px) {
+.gridPosts {
+    flex-direction: column;
+}
+.cardPost {
+    width: 100%;
+}
+header {
+    flex-direction: column;
+    gap: 10px;
+}
+nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+.footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer .links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.footer .links span {
+    background-color: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
