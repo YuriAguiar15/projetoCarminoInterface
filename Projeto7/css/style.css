@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    text-decoration: nome;
+    color: black;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+}
+.actions input {
+    padding: 5px;
+    border-radius: 6px;
+}
+.actions button {
+    color: #00c080;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #00c080;
+    background-color: transparent;
+    
+}
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.hero p {
+    margin-bottom: 20px;
+}
+.hero button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+body {
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.sidebar ul {
+    padding-left: 20px;
+}
+.conteudo {
+    flex: 1;
+}
+.cards {
+    display: flex;
+    gap: 15px;
+}
+.cardInfo {
+    background: white;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}.escolhasEditor {
+     background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.escolhasEditor input {
+     width: 100%;
+    padding: 14px 16px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.linhaPost {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.categoriaPost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}.acoes {
+    display: flex;
+    gap: 10px;
+}
+.acoes button {
+    width: 90px;
+    height: 40px;
+    padding: 10px 15px;
+    border: 1px solid teal;
+    background: white;
+    color: teal;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.footer {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: center;
+}
+.footer .links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.footer .links span {
+    border-radius: 6px;
+    border: 2px solid #dddddd;
+    background-color: transparent;
+    padding: 15px 50px;
+    font-weight: 700;
+}
