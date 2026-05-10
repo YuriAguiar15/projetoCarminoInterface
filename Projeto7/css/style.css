@@ -139,6 +139,25 @@ body {
     border-radius: 8px;
     cursor: pointer;
 }
+@media (max-width: 769px) {
+    .grid-posts {
+        flex-direction: column;
+    }
+    .card-post {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .filtros {
+        flex-wrap: wrap;
+    }
+}
 .footer {
     background: white;
     padding: 20px;
