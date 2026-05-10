@@ -149,6 +149,25 @@ button:hover {
     color: white;
     transition: 0.3s;
 }
+@media (max-width: 769px) {
+    .grid-posts {
+        flex-direction: column;
+    }
+    .card-post {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .filtros {
+        flex-wrap: wrap;
+    }
+}
 .footer {
     width: 100%;
     background: white;
