@@ -174,7 +174,7 @@ section {
     padding: 8px 12px;
     border-radius: 10px;
 }
-@media (max-whidth: 760px) {
+@media (max-whidth: 769px) {
 
     header {
         flex-direction: column;
