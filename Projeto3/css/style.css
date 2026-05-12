@@ -84,7 +84,7 @@ main {
     max-width: 1200px;
     margin: auto;
 }
-@media (max-width: 770px) {
+@media (max-width: 769px) {
 .gridPosts {
     flex-direction: column;
 }
