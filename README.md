@@ -7,7 +7,7 @@
 
 Projeto de interface web desenvolvido utilizando HTML5 e CSS3, com foco na criação de páginas modernas, organizadas e responsivas.
 
-O sistema simula um portal/dashboard contendo telas administrativas, gerenciamento de usuários, categorias, postagens, resultados de pesquisa e área de perfil.
+O sistema simula um portal/dashboard contendo telas administrativas, gerenciamento de usuários, categorias, postagens, resultados de pesquisa, área de perfil, entre outras.
 
 O objetivo do projeto é praticar estruturação de layouts, estilização com CSS, uso de Flexbox e responsividade.
 
